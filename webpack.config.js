@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // 引入 MiniC
 
 module.exports = {  
     mode: 'development',  
-    entry: './src/index.js', // 入口文件  
+    entry: './src/main.js', // 入口文件  
     output: {  
         filename: 'bundle.js', // JS 输出文件  
         path: path.resolve(__dirname, 'dist'), // 输出目录  
